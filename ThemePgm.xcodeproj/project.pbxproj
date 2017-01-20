@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		F764B32B1E307E6000E4F538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B32A1E307E6000E4F538 /* main.m */; };
 		F764B32E1E307E6000E4F538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B32D1E307E6000E4F538 /* AppDelegate.m */; };
-		F764B3311E307E6000E4F538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3301E307E6000E4F538 /* ViewController.m */; };
+		F764B3311E307E6000E4F538 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3301E307E6000E4F538 /* Settings.m */; };
 		F764B3341E307E6000E4F538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F764B3321E307E6000E4F538 /* Main.storyboard */; };
 		F764B3371E307E6000E4F538 /* ThemePgm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F764B3351E307E6000E4F538 /* ThemePgm.xcdatamodeld */; };
 		F764B3391E307E6000E4F538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F764B3381E307E6000E4F538 /* Assets.xcassets */; };
 		F764B33C1E307E6000E4F538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F764B33A1E307E6000E4F538 /* LaunchScreen.storyboard */; };
 		F764B3471E307E6000E4F538 /* ThemePgmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3461E307E6000E4F538 /* ThemePgmTests.m */; };
 		F764B3521E307E6000E4F538 /* ThemePgmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3511E307E6000E4F538 /* ThemePgmUITests.m */; };
+		F764B3611E307E7F00E4F538 /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3601E307E7F00E4F538 /* First.m */; };
+		F764B3641E307E8A00E4F538 /* Second.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3631E307E8A00E4F538 /* Second.m */; };
+		F764B3671E307E9600E4F538 /* Third.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3661E307E9600E4F538 /* Third.m */; };
+		F764B3691E307F4500E4F538 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = F764B3681E307F4500E4F538 /* test.png */; };
+		F764B36C1E30808E00E4F538 /* Fourth.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B36B1E30808E00E4F538 /* Fourth.m */; };
+		F764B36F1E30809E00E4F538 /* Fifth.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B36E1E30809E00E4F538 /* Fifth.m */; };
+		F764B3751E30859300E4F538 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F764B3741E30859300E4F538 /* UIKit.framework */; };
+		F764B3781E30915600E4F538 /* ColorPalatte.m in Sources */ = {isa = PBXBuildFile; fileRef = F764B3771E30915600E4F538 /* ColorPalatte.m */; };
+		F77BF1E21E30D6A900DD2828 /* cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = F77BF1E11E30D6A900DD2828 /* cursor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +49,8 @@
 		F764B32A1E307E6000E4F538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F764B32C1E307E6000E4F538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F764B32D1E307E6000E4F538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F764B32F1E307E6000E4F538 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F764B3301E307E6000E4F538 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F764B32F1E307E6000E4F538 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		F764B3301E307E6000E4F538 /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		F764B3331E307E6000E4F538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F764B3361E307E6000E4F538 /* ThemePgm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThemePgm.xcdatamodel; sourceTree = "<group>"; };
 		F764B3381E307E6000E4F538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +62,21 @@
 		F764B34D1E307E6000E4F538 /* ThemePgmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemePgmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F764B3511E307E6000E4F538 /* ThemePgmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemePgmUITests.m; sourceTree = "<group>"; };
 		F764B3531E307E6000E4F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F764B35F1E307E7F00E4F538 /* First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
+		F764B3601E307E7F00E4F538 /* First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
+		F764B3621E307E8A00E4F538 /* Second.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second.h; sourceTree = "<group>"; };
+		F764B3631E307E8A00E4F538 /* Second.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second.m; sourceTree = "<group>"; };
+		F764B3651E307E9600E4F538 /* Third.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Third.h; sourceTree = "<group>"; };
+		F764B3661E307E9600E4F538 /* Third.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Third.m; sourceTree = "<group>"; };
+		F764B3681E307F4500E4F538 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		F764B36A1E30808E00E4F538 /* Fourth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fourth.h; sourceTree = "<group>"; };
+		F764B36B1E30808E00E4F538 /* Fourth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fourth.m; sourceTree = "<group>"; };
+		F764B36D1E30809E00E4F538 /* Fifth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fifth.h; sourceTree = "<group>"; };
+		F764B36E1E30809E00E4F538 /* Fifth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fifth.m; sourceTree = "<group>"; };
+		F764B3741E30859300E4F538 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F764B3761E30915600E4F538 /* ColorPalatte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPalatte.h; sourceTree = "<group>"; };
+		F764B3771E30915600E4F538 /* ColorPalatte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPalatte.m; sourceTree = "<group>"; };
+		F77BF1E11E30D6A900DD2828 /* cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F764B3751E30859300E4F538 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +112,7 @@
 				F764B3451E307E6000E4F538 /* ThemePgmTests */,
 				F764B3501E307E6000E4F538 /* ThemePgmUITests */,
 				F764B3271E307E5F00E4F538 /* Products */,
+				F764B3731E30859200E4F538 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +131,22 @@
 			children = (
 				F764B32C1E307E6000E4F538 /* AppDelegate.h */,
 				F764B32D1E307E6000E4F538 /* AppDelegate.m */,
-				F764B32F1E307E6000E4F538 /* ViewController.h */,
-				F764B3301E307E6000E4F538 /* ViewController.m */,
+				F764B3761E30915600E4F538 /* ColorPalatte.h */,
+				F764B3771E30915600E4F538 /* ColorPalatte.m */,
+				F764B32F1E307E6000E4F538 /* Settings.h */,
+				F764B3301E307E6000E4F538 /* Settings.m */,
+				F764B35F1E307E7F00E4F538 /* First.h */,
+				F764B3601E307E7F00E4F538 /* First.m */,
+				F764B3621E307E8A00E4F538 /* Second.h */,
+				F764B3631E307E8A00E4F538 /* Second.m */,
+				F764B3651E307E9600E4F538 /* Third.h */,
+				F764B3661E307E9600E4F538 /* Third.m */,
+				F764B36A1E30808E00E4F538 /* Fourth.h */,
+				F764B36B1E30808E00E4F538 /* Fourth.m */,
+				F764B36D1E30809E00E4F538 /* Fifth.h */,
+				F764B36E1E30809E00E4F538 /* Fifth.m */,
+				F77BF1E11E30D6A900DD2828 /* cursor.png */,
+				F764B3681E307F4500E4F538 /* test.png */,
 				F764B3321E307E6000E4F538 /* Main.storyboard */,
 				F764B3381E307E6000E4F538 /* Assets.xcassets */,
 				F764B33A1E307E6000E4F538 /* LaunchScreen.storyboard */,
@@ -141,6 +181,14 @@
 				F764B3531E307E6000E4F538 /* Info.plist */,
 			);
 			path = ThemePgmUITests;
+			sourceTree = "<group>";
+		};
+		F764B3731E30859200E4F538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F764B3741E30859300E4F538 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F764B33C1E307E6000E4F538 /* LaunchScreen.storyboard in Resources */,
+				F77BF1E21E30D6A900DD2828 /* cursor.png in Resources */,
 				F764B3391E307E6000E4F538 /* Assets.xcassets in Resources */,
 				F764B3341E307E6000E4F538 /* Main.storyboard in Resources */,
+				F764B3691E307F4500E4F538 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +327,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F764B3371E307E6000E4F538 /* ThemePgm.xcdatamodeld in Sources */,
-				F764B3311E307E6000E4F538 /* ViewController.m in Sources */,
+				F764B3611E307E7F00E4F538 /* First.m in Sources */,
+				F764B3311E307E6000E4F538 /* Settings.m in Sources */,
+				F764B36F1E30809E00E4F538 /* Fifth.m in Sources */,
+				F764B36C1E30808E00E4F538 /* Fourth.m in Sources */,
+				F764B3641E307E8A00E4F538 /* Second.m in Sources */,
+				F764B3671E307E9600E4F538 /* Third.m in Sources */,
 				F764B32E1E307E6000E4F538 /* AppDelegate.m in Sources */,
 				F764B32B1E307E6000E4F538 /* main.m in Sources */,
+				F764B3781E30915600E4F538 /* ColorPalatte.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +565,7 @@
 				F764B3581E307E6000E4F538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F764B3591E307E6000E4F538 /* Build configuration list for PBXNativeTarget "ThemePgmTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +574,7 @@
 				F764B35B1E307E6000E4F538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F764B35C1E307E6000E4F538 /* Build configuration list for PBXNativeTarget "ThemePgmUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +583,7 @@
 				F764B35E1E307E6000E4F538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
